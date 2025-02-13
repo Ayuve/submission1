@@ -1,35 +1,35 @@
-# Analisis Produk Terlaris dan Produk yang Sering Dibeli dengan Streamlit
+# Eksplorasi Produk Paling Laku dan Paling Sering Dibeli dengan Streamlit
 
-Ini adalah aplikasi Streamlit sederhana yang menyediakan dasbor e-commerce interaktif. Aplikasi ini memvisualisasikan berbagai metrik dan statistik yang terkait dengan platform e-commerce menggunakan data dari file CSV.
+Aplikasi ini adalah dasbor interaktif berbasis Streamlit yang dirancang untuk menganalisis tren e-commerce. Dengan memanfaatkan data dari file CSV, aplikasi ini menampilkan berbagai metrik dan wawasan penting.
 
 ## Fitur
-- Menampilkan pratinjau dataset.
-- Menampilkan statistik ringkasan dari dataset.
-- Menyediakan visualisasi seperti:
-  - Produk terlaris berdasarkan jumlah penjualan.
-  - Kategori produk yang paling sering dibeli.
+- Menyediakan tampilan awal dataset.
+- Menyajikan ringkasan statistik dari data yang dianalisis.
+- Menampilkan berbagai visualisasi, termasuk:
+  - Produk dengan angka penjualan tertinggi.
+  - Kategori produk yang paling sering dibeli oleh pelanggan.
 
-## Dependensi
-Untuk menjalankan aplikasi ini secara lokal, Anda memerlukan hal-hal berikut:
+## Persyaratan
+Agar aplikasi dapat dijalankan secara lokal, pastikan Anda memiliki:
 
-- Python 3.7 atau lebih tinggi.
-- Pengelola paket `pip`.
+- Python versi 3.7 atau lebih baru.
+- Manajer paket `pip`.
 
-## Instalasi dan Proses Running
-Clone repositori ke mesin lokal Anda:
+## Panduan Instalasi dan Menjalankan Aplikasi
+Salin repositori ke perangkat Anda dengan perintah berikut:
 
 ```sh
 git clone https://github.com/Ayuve/submission1.git
 cd nama-repositori-anda
 ```
 
-Install dependensi:
+Instal dependensi yang dibutuhkan:
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Menjalankan dashboard:
+Jalankan aplikasi dengan perintah berikut:
 
 ```sh
 streamlit run dashboard/dashboard.py
